@@ -41,13 +41,10 @@ def authenticate(username, password):
                 check = bcrypt.check_password_hash(pwd, password)
                 return check
             else:
-                print('salah login')
                 return False
         else:
-            print('belum di isi')
             return False
     except:
-        print('koreksi kode')
         return False
 
 @app.route('/students', methods=['GET'])
