@@ -1,10 +1,3 @@
-"""
-NAMA = AHMAD NAUFAL LABIIB NABHAAN
-NIM  = 19.83.0357
-
-DO NOT COPY WITHOUT PERMISSION
-"""
-
 from db import get_db
 from flask_bcrypt import Bcrypt
 from flask import Flask
